@@ -1,0 +1,10 @@
+{
+  "MyJsonComment": "The selectors can also be used as Xpath: //button[@ng-class='btnClass1']",
+
+  "addCustomer": "button[ng-class='btnClass1']",    
+  "CreateAccount": "button[ng-class='btnClass2']",
+  "customerList": "button[ng-class='btnClass3']",
+  "fNameField":  "inout[ng-model='fName']",
+  "lNameField":  "inout[ng-model='lName']",
+  "pCodeField":  "inout[ng-model='postCd']"
+}
