@@ -1,0 +1,70 @@
+# Node.js
+node_modules/
+
+# Cypress generated files
+/cypress/screenshots/
+/cypress/videos/
+/cypress/snapshots/
+/cypress/reports/
+
+# Cypress configuration file
+/cypress.env.json
+
+# VS Code settings
+.vscode/
+
+# WebStorm settings
+.idea/
+
+# Log files
+*.log
+
+# Dependency directories
+/jspm_packages/
+/bower_components/
+
+# Environment variables file
+.env
+.env.local
+.env.*.local
+
+# macOS metadata
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains
+.idea/
+
+# Sublime Text
+.sublime-project
+.sublime-workspace
+
+# Webpack
+dist/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*

@@ -1,10 +1,19 @@
 {
   "MyJsonComment": "The selectors can also be used as Xpath: //button[@ng-class='btnClass1']",
 
-  "addCustomer": "button[ng-class='btnClass1']",    
-  "CreateAccount": "button[ng-class='btnClass2']",
-  "customerList": "button[ng-class='btnClass3']",
-  "fNameField":  "inout[ng-model='fName']",
-  "lNameField":  "inout[ng-model='lName']",
-  "pCodeField":  "inout[ng-model='postCd']"
+  "addCustomerBtn": "button[ng-class='btnClass1']",    
+  "openAccountBtn": "button[ng-class='btnClass2']",
+  "customerListBtn": "button[ng-class='btnClass3']",
+  "fistNameField":  "input[ng-model='fName']",
+  "lastNameField":  "input[ng-model='lName']",
+  "pCodeField":  "input[ng-model='postCd']",
+  "firstName": "John",
+  "lastName": "Gomez",
+  "postCd": "SK3 7BA",
+  "createBtn": "button[type='submit']",
+  "customerList": "#userSelect",
+  "currencyList": "#currency",
+  "currency":"Pound",
+  "searchField": "input[ng-model='searchCustomer']",
+  "deleteBtn": "[ng-click='deleteCust(cust)']"
 }

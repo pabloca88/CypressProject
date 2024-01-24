@@ -1,8 +1,20 @@
 {
-    "compilerOptions": {
-      "target": "es5",
-      "lib": ["es5", "dom"],
-      "types": ["cypress", "node"]
-    },
-    "include": ["**/*.ts"]
-  }
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es2017"],
+    "types": ["cypress", "node"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": ["cypress/**/*.ts", "cypress/**/*.tsx","cypress/support/**/*.ts"],
+  "exclude": ["node_modules"]
+}

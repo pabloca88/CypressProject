@@ -35,3 +35,18 @@
 //     }
 //   }
 // }
+
+Cypress.Commands.add('clickElement', (element) => {
+    cy.get(element).should('exist').click()
+})
+
+Cypress.Commands.add('typeAText', (field: string, text: string) => {
+    cy.get(field).type(text);
+  });
+
+declare namespace Cypress {
+    interface Chainable {
+        clickElement(element: string) : Chainable<void>
+        typeAText(field: string, text: string): Chainable<void>
+    }
+}
